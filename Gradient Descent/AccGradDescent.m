@@ -18,6 +18,7 @@ x_0  = 0.5*randn([m 1]); %Our initial x i.e., x_0;
 xk = x_0;
 tk = 1;
 yk = xk;
+
 %% Main GD loop
 
 for k=1:Nit
