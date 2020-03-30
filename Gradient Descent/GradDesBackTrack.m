@@ -40,8 +40,7 @@ for k=1:Nit
     
     Err = xk -  x_old;
     relError(k) = norm(Err,'fro')/norm(xk,'fro');
-    
-  
+   
     if relError(k) < tol
         break;
     end    
