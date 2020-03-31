@@ -4,6 +4,7 @@ First order optimization methods
 In this repository, I will add first order (gradient methods) algorithms. It will be updated from time to time.
 
 Folders:
+
       Gradient descent
          - Vanilla gradient descent (solve least squares,LS problem)
          - Nesterov's accelerated gradient descent (LS problem).
